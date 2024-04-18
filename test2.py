@@ -209,7 +209,7 @@ fig.update_polars(
 #fig.update_polars(radialaxis=dict(range=[0, 1]))
 
 fig.update_xaxes(title_text="Days", row=1, col=1)
-fig.update_yaxes(title_text="Recovery<br>Activity", row=1, col=1)
+fig.update_yaxes(title_text="Recovery<br>Activity", range=[1, 10], row=1, col=1)
 fig.update_xaxes(title_text="Days", row=1, col=2)
 fig.update_yaxes(title_text="Nutrition<br>Activity", row=1, col=2)
 fig.update_xaxes(title_text="Days", row=2, col=1)
