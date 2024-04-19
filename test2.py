@@ -238,6 +238,6 @@ fig.update_yaxes(title_text="Overall<br>Performance", range=[1, 10], title_stand
 #        size = 8
 #      ))
 
-
+st.set_page_config(layout="wide")
 
 st.plotly_chart(fig)
