@@ -112,7 +112,7 @@ fig.update_layout(
 #    title_text = 'PEAK PERFORMANCE',
 
     font=dict(
-        family="Courier New, monospace",
+        family="Sans Serif",
         size=9,  # Set the font size here
         color="White"
     ),
