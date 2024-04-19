@@ -121,7 +121,7 @@ fig.update_layout(
 
     font=dict(
         family="Arial",
-        size=8,  # Set the font size here
+        size=7,  # Set the font size here
         color="White"
     ),
 
