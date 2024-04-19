@@ -107,13 +107,13 @@ fig.update_layout(
     autosize=False,
 #    minreducedwidth=350,
 #    minreducedheight=350,
-    width=600,
-    height=600,
+    width=450,
+    height=450,
 #    title_text = 'PEAK PERFORMANCE',
 
     font=dict(
         family="Courier New, monospace",
-        size=12,  # Set the font size here
+        size=10,  # Set the font size here
         color="White"
     ),
 
@@ -136,7 +136,7 @@ fig.update_layout(
     radialaxis=dict(
       visible=True,
       range=[0, 10],
-        tickfont_size = 12,
+        tickfont_size = 10,
         color="Yellow"
     )),
 
@@ -144,7 +144,7 @@ fig.update_layout(
     radialaxis=dict(
       visible=True,
       range=[0, 10],
-        tickfont_size = 12,
+        tickfont_size = 10,
         color="Yellow"
     )),
 
