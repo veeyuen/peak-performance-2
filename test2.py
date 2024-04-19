@@ -210,11 +210,11 @@ fig.update_polars(
 
 fig.update_xaxes(title_text="Days", ticks="inside", tick0=0.0, dtick=30, row=1, col=1)
 fig.update_yaxes(title_text="Recovery<br>Activity", range=[1, 10], row=1, col=1)
-fig.update_xaxes(title_text="Days", ticks="inside", row=1, col=2)
+fig.update_xaxes(title_text="Days", ticks="inside", tick0=0.0, dtick=30, row=1, col=2)
 fig.update_yaxes(title_text="Nutrition<br>Activity", range=[1, 10], row=1, col=2)
-fig.update_xaxes(title_text="Days", ticks="inside", row=2, col=1)
+fig.update_xaxes(title_text="Days", ticks="inside", tick0=0.0, dtick=30, row=2, col=1)
 fig.update_yaxes(title_text="Training<br>Activity", range=[1, 10], row=2, col=1)
-fig.update_xaxes(title_text="Days", ticks="inside", row=2, col=2)
+fig.update_xaxes(title_text="Days", ticks="inside", tick0=0.0, dtick=30, row=2, col=2)
 fig.update_yaxes(title_text="Overall<br>Performance", range=[1, 10], row=2, col=2)
 
 
