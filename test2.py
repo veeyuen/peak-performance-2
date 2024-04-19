@@ -43,7 +43,7 @@ fig = make_subplots(
     specs=[[{"type": "scatter"}, {"type": "scatter"}, {"type": "scatter"}],
            [None, {"type": "scatter"}, None]
               ],
-    horizontal_spacing= 0.20, vertical_spacing= 0.25,
+    horizontal_spacing= 0.20, vertical_spacing= 0.30,
     row_heights=[0.25, 0.25]
     )
 
