@@ -106,7 +106,7 @@ fig.add_trace(
         showlegend=False
     ),
     row=2,
-    col=2,
+    col=1,
     )
 
 
