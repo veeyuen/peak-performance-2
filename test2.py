@@ -116,7 +116,7 @@ fig.update_layout(
 #    minreducedwidth=350,
 #    minreducedheight=350,
     width=700,
-    height=505,
+    height=510,
 #    title_text = 'PEAK PERFORMANCE',
 
     font=dict(
@@ -127,7 +127,7 @@ fig.update_layout(
 
     title_xref="paper",
 
-    margin=dict(l=40, r=80, t=10, b=0),
+    margin=dict(l=40, r=80, t=12, b=0),
 
 
     #title={
