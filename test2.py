@@ -116,7 +116,7 @@ fig.update_layout(
 #    minreducedwidth=350,
 #    minreducedheight=350,
     width=700,
-    height=510,
+    height=505,
 #    title_text = 'PEAK PERFORMANCE',
 
     font=dict(
