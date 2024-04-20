@@ -41,18 +41,18 @@ r1 =[3,3,5.5]
 fig = make_subplots(
     rows=2, cols=3,
     specs=[[{"type": "scatter"}, {"type": "scatter"}, {"type": "scatter"}],
-           [None, {"type": "scatter"}, None]
+           [{"type": "scatter"}]
               ],
     horizontal_spacing= 0.15, vertical_spacing= 0.17,
     row_heights=[0.25, 0.25]
     )
 
 #fig = make_subplots(
-#    rows=2, cols=2,
-#    specs=[[{"type": "scatter"}, {"type": "scatter"}],
-#           [{"type": "scatter"}, {"type": "scatter"}]
+#    rows=2, cols=3,
+#    specs=[[{"type": "scatter"}, {"type": "scatter"}, {"type": "scatter"}],
+#           [None, {"type": "scatter"}, None]
 #              ],
-#    horizontal_spacing= 0.25, vertical_spacing= 0.25,
+#    horizontal_spacing= 0.15, vertical_spacing= 0.17,
 #    row_heights=[0.25, 0.25]
 #    )
 
