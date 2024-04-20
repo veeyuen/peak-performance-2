@@ -222,8 +222,8 @@ fig.update_xaxes(title_text="Days", ticks="inside", tick0=0.0, showgrid=True, dt
 fig.update_yaxes(title_text="Nutrition", range=[1, 10], showgrid=True, title_standoff = 10, row=1, col=2)
 fig.update_xaxes(title_text="Days", ticks="inside", showgrid=True, tick0=0.0, dtick=30, row=1, col=3)
 fig.update_yaxes(title_text="Training", range=[1, 10], showgrid=True, title_standoff = 10, row=1, col=3)
-fig.update_xaxes(title_text="Days", ticks="inside", showgrid=True, tick0=0.0, dtick=30, row=2, col=2)
-fig.update_yaxes(title_text="Overall<br>Performance", range=[1, 10], showgrid=True, title_standoff = 10, row=2, col=2)
+fig.update_xaxes(title_text="Days", ticks="inside", showgrid=True, tick0=0.0, dtick=30, row=2, col=1)
+fig.update_yaxes(title_text="Overall<br>Performance", range=[1, 10], showgrid=True, title_standoff = 10, row=2, col=1)
 
 
 
