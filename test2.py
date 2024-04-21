@@ -13,14 +13,6 @@ import numpy as np
 import math
 
 
-np.random.seed(1)
-
-N = 10
-random_x = np.linspace(0, 300, N)
-random_y0 = np.random.randn(N)
-random_y1 = np.random.randn(N)
-random_y2 = np.random.randn(N)
-random_y3 = np.random.randn(N)
 
 x_recovery = np.array([0, 30, 60, 90])
 y_recovery = np.array([3.64, 8.47, 9.52, 9.59])
