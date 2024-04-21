@@ -222,8 +222,8 @@ fig.update_xaxes(title_text="Days", ticks="inside", tickcolor="white", showgrid=
 fig.update_yaxes(title_text="TOTAL<br>PERFORMANCE", range=[1, 10], showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, title_standoff = 10, row=2, col=1)
 
 fig.layout.annotations[0].update(y=1.02, font= dict(size=12))
-fig.layout.annotations[1].update(y=1.02)
-fig.layout.annotations[2].update(y=1.02)
+fig.layout.annotations[1].update(y=1.02, font= dict(size=12))
+fig.layout.annotations[2].update(y=1.02, font= dict(size=12))
 
 
 # use below only if necessary
