@@ -237,6 +237,4 @@ fig.layout.annotations[2].update(y=1.02)
 #        size = 8
 #      ))
 
-fig.show()
-
 st.plotly_chart(fig)
