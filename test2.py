@@ -159,50 +159,50 @@ fig.update_layout(
 
     template="plotly_dark",
 
-    legend1=dict(
-        title= "RECOVERY",
-        x=-0.05,
-        y=1.1,
-        title_font_family="Arial",
-        font=dict(
-            family="Arial",
-            size=9,
-            color="White"
-        ),
-        bgcolor="Black",
-        bordercolor="Black",
-        borderwidth=1
-    ),
+    #legend1=dict(
+    #    title= "RECOVERY",
+    #    x=-0.05,
+    #    y=1.1,
+    #    title_font_family="Arial",
+    #    font=dict(
+    #        family="Arial",
+    #        size=9,
+    #        color="White"
+    #    ),
+    #    bgcolor="Black",
+    #    bordercolor="Black",
+    #    borderwidth=1
+    #),
 
-    legend2=dict(
-        title="NUTRITION",
-        x=0.55,
-        y=1.1,
-        title_font_family="Arial",
-        font=dict(
-            family="Arial",
-            size=9,
-            color="White"
-        ),
-        bgcolor="Black",
-        bordercolor="Black",
-        borderwidth=1
-    ),
+    #legend2=dict(
+    #    title="NUTRITION",
+    #    x=0.55,
+    #    y=1.1,
+    #    title_font_family="Arial",
+    #    font=dict(
+    #        family="Arial",
+    #        size=9,
+    #        color="White"
+    #    ),
+    #    bgcolor="Black",
+    #    bordercolor="Black",
+    #    borderwidth=1
+    #),
 
-    legend3=dict(
-        title="TRAINING",
-        x=-0.05,
-        y=0.5,
-        title_font_family="Arial",
-        font=dict(
-            family="Arial",
-            size=9,
-            color="White"
-        ),
-        bgcolor="Black",
-        bordercolor="Black",
-        borderwidth=1
-    ),
+    #legend3=dict(
+    #    title="TRAINING",
+    #    x=-0.05,
+    #    y=0.5,
+    #    title_font_family="Arial",
+    #    font=dict(
+    #        family="Arial",
+    #        size=9,
+    #        color="White"
+    #    ),
+    #    bgcolor="Black",
+    #    bordercolor="Black",
+    #    borderwidth=1
+    #),
 
   showlegend=True
 )
