@@ -211,7 +211,7 @@ fig.update_layout(
 #fig.update_polars(radialaxis=dict(range=[0, 1]))
 
 fig.update_xaxes(title_text="Days", ticks="inside", tickcolor="white", showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, tick0=0.0, dtick=30, row=1, col=1)
-fig.update_yaxes(title_text="Activity", range=[1, 10], showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, title_standoff = 10, row=1, col=1)
+fig.update_yaxes(title_text="Index", range=[1, 10], showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, title_standoff = 10, row=1, col=1)
 #fig.update_yaxes(range=[1, 10], showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, title_standoff = 10, row=1, col=1)
 
 fig.update_xaxes(title_text="Days", ticks="inside", tickcolor="white", tick0=0.0, showline=True, linewidth=1, linecolor='white', mirror=True, showgrid=True, dtick=30, row=1, col=2)
