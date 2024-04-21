@@ -234,4 +234,6 @@ fig.update_yaxes(title_text="Overall<br>Performance", range=[1, 10], showgrid=Tr
 #        size = 8
 #      ))
 
+fig.full_figure_for_development()
+
 st.plotly_chart(fig)
