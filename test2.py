@@ -101,7 +101,8 @@ fig.add_trace(
     row=2,
     col=1,
     )
-
+#fig.add_annotation(xref="x domain",yref="y domain",x=0.5, y=1.2, showarrow=False,
+#                   text="<b>Hey</b>", row=1, col=1)
 
 
 fig.update_layout(
