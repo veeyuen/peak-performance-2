@@ -37,6 +37,7 @@ fig = make_subplots(
               ],
     horizontal_spacing= 0.08, vertical_spacing= 0.20,
     row_heights=[0.25, 0.25]
+    subplot_titles=("Recovery", "Nutrition", "Exercise")
     )
 
 #fig = make_subplots(
