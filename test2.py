@@ -198,15 +198,15 @@ fig.update_layout(
     #    borderwidth=1
     #),
 
-#  showlegend=True
-#)
-
-fig.update_polars(
-    radialaxis=dict(
-        angle=45,
-        range=[1, 10]
-    )
+  showlegend=True
 )
+
+#fig.update_polars(
+#    radialaxis=dict(
+#        angle=45,
+#        range=[1, 10]
+#    )
+#)
 
 #fig.update_polars(radialaxis=dict(range=[0, 1]))
 
