@@ -214,11 +214,11 @@ fig.update_xaxes(title_text="Days", ticks="inside", tickcolor="white", showgrid=
 fig.update_yaxes(title_text="LEVEL", range=[1, 10], showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, title_standoff = 10, row=1, col=1)
 #fig.update_yaxes(range=[1, 10], showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, title_standoff = 10, row=1, col=1)
 
-fig.update_xaxes(title_text="Days", ticks="inside", tickcolor="white", tick0=0.0, showline=True, linewidth=1, linecolor='white', mirror=True, showgrid=True, dtick=30, row=1, col=2)
+fig.update_xaxes(title_text="DAYS", ticks="inside", tickcolor="white", tick0=0.0, showline=True, linewidth=1, linecolor='white', mirror=True, showgrid=True, dtick=30, row=1, col=2)
 fig.update_yaxes(range=[1, 10], showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, title_standoff = 10, row=1, col=2)
-fig.update_xaxes(title_text="Days", ticks="inside", tickcolor="white", showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, tick0=0.0, dtick=30, row=1, col=3)
+fig.update_xaxes(title_text="DAYS", ticks="inside", tickcolor="white", showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, tick0=0.0, dtick=30, row=1, col=3)
 fig.update_yaxes(range=[1, 10], showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, title_standoff = 10, row=1, col=3)
-fig.update_xaxes(title_text="Days", ticks="inside", tickcolor="white", showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, tick0=0.0, dtick=30, row=2, col=1)
+fig.update_xaxes(title_text="DAYS", ticks="inside", tickcolor="white", showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, tick0=0.0, dtick=30, row=2, col=1)
 fig.update_yaxes(title_text="TOTAL<br>PERFORMANCE", range=[1, 10], showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, title_standoff = 10, row=2, col=1)
 
 fig.layout.annotations[0].update(y=1.02, font= dict(size=14))
