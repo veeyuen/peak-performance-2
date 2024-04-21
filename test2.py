@@ -140,24 +140,24 @@ fig.update_layout(
     title_font_family="Times New Roman",
     title_font_color="black",
 
-    polar=dict(            # first chart y-axis labels
-    radialaxis=dict(
-      visible=True,
-      range=[0, 10],
-        tickfont_size = 10,
-        color="Yellow"
-    )),
+    #polar=dict(            # first chart y-axis labels
+    #radialaxis=dict(
+    #  visible=True,
+    #  range=[0, 10],
+    #    tickfont_size = 10,
+    #    color="Yellow"
+    #)),
 
-    polar2=dict(        # second chart y-axis labels
-    radialaxis=dict(
-      visible=True,
-      range=[0, 10],
-        tickfont_size = 10,
-        color="Yellow"
-    )),
+    #polar2=dict(        # second chart y-axis labels
+    #radialaxis=dict(
+    #  visible=True,
+    #  range=[0, 10],
+    #    tickfont_size = 10,
+    #    color="Yellow"
+    #)),
 
 
-    template="plotly_dark",
+    #template="plotly_dark",
 
     #legend1=dict(
     #    title= "RECOVERY",
