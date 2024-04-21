@@ -198,8 +198,8 @@ fig.update_layout(
     #    borderwidth=1
     #),
 
-  showlegend=True
-)
+#  showlegend=True
+#)
 
 fig.update_polars(
     radialaxis=dict(
