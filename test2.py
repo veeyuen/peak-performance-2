@@ -221,7 +221,7 @@ fig.update_yaxes(range=[1, 10], showgrid=True, showline=True, linewidth=1, linec
 fig.update_xaxes(title_text="Days", ticks="inside", tickcolor="white", showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, tick0=0.0, dtick=30, row=2, col=1)
 fig.update_yaxes(title_text="Overall<br>Performance", range=[1, 10], showgrid=True, showline=True, linewidth=1, linecolor='white', mirror=True, title_standoff = 10, row=2, col=1)
 
-fig.layout.annotations[0].update(y=0.5)
+fig.layout.annotations[0].update(y=0.05)
 
 
 # use below only if necessary
