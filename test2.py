@@ -106,7 +106,7 @@ fig.add_trace(
 
 
 fig.update_layout(
-    autosize=False,
+    autosize=True,
 #    minreducedwidth=350,
 #    minreducedheight=350,
     width=700,
