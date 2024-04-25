@@ -59,8 +59,7 @@ fig.add_trace(
         mode='lines+markers',
         name='Time (Days)',
         line=dict(color='orange', width=2),
-        showlegend=False,
-        domain=dict(x=[0.0, 1.0],y=[0.2, 0.8])
+        showlegend=False
     ),
     row=1,
     col=1,
