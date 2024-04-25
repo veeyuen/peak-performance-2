@@ -55,7 +55,6 @@ fig = make_subplots(
 
 fig.add_trace(
     go.Scatter(
-        domain=dict(x=[0.0, 1.0],y=[0.2, 0.8]),
         x=x_recovery, y=y_recovery,
         mode='lines+markers',
         name='Time (Days)',
