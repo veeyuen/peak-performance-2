@@ -123,9 +123,9 @@ fig.update_layout(
 
     margin_autoexpand=False,
 
-    margin=dict(l=10, r=100, t=30, b=0, pad=3),
+    margin=dict(l=15, r=100, t=30, b=0, pad=3),
 
-    grid_domain_x=(0,0.8),
+    grid_domain_x=(0,1.0),
 
 
     #title={
