@@ -227,7 +227,7 @@ fig.update_yaxes(title_text="TOTAL<br>PERFORMANCE", range=[1, 10], showgrid=True
 
 fig.layout.annotations[0].update(y=1.02, font= dict(size=14))
 fig.layout.annotations[1].update(y=1.02, font= dict(size=14))
-fig.layout.annotations[2].update(x=0, y=1.02, font= dict(size=14))
+fig.layout.annotations[2].update(y=1.02, font= dict(size=14))
 
 
 # use below only if necessary
