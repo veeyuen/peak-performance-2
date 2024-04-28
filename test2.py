@@ -123,7 +123,7 @@ fig.update_layout(
 
     margin_autoexpand=False,
 
-    margin=dict(l=0, r=100, t=30, b=0, pad=3),
+    margin=dict(l=5, r=100, t=30, b=0, pad=3),
 
     grid_domain_x=(0,1),
 
