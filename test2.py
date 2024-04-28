@@ -123,7 +123,7 @@ fig.update_layout(
 
     margin_autoexpand=False,
 
-    margin=dict(l=30, r=110, t=30, b=25, pad=3),
+    margin=dict(l=35, r=110, t=30, b=25, pad=3),
 
     grid_domain_x=(0,1.0),
 
@@ -238,7 +238,7 @@ fig.layout.annotations[2].update(y=1.02, font= dict(size=14))
 #    showarrow=False
 #)
 
-fig.add_annotation(x=-0.05, y=0.5, xref="paper", yref="paper", showarrow=False, text="TOTAL<br>PERFORMANCE", font=dict(size=14), textangle=-90)
+#fig.add_annotation(x=-0.05, y=0.5, xref="paper", yref="paper", showarrow=False, text="TOTAL<br>PERFORMANCE", font=dict(size=14), textangle=-90)
 
 
 
