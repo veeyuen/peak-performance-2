@@ -229,6 +229,15 @@ fig.layout.annotations[0].update(y=1.02, font= dict(size=14))
 fig.layout.annotations[1].update(y=1.02, font= dict(size=14))
 fig.layout.annotations[2].update(y=1.02, font= dict(size=14))
 
+#fig.add_annotation(
+#    xref="x domain",
+#    yref="y domain",
+#    x=-0.05,
+#    y=1.05,
+#    text="y title",
+#    showarrow=False
+#)
+
 
 # use below only if necessary
 #fig.update_traces(mode = "lines+markers",
