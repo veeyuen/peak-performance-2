@@ -238,6 +238,9 @@ fig.layout.annotations[2].update(y=1.02, font= dict(size=14))
 #    showarrow=False
 #)
 
+fig.add_annotation(x=-0.05, y=0, xref="paper", yref="y", showarrow=False, text="TOTAL<br>PERFORMANCE", font=dict(size=14), textangle=-90)
+
+
 
 # use below only if necessary
 #fig.update_traces(mode = "lines+markers",
